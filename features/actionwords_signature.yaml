@@ -1,0 +1,42 @@
+---
+- name: o usuário abre a tela inicial do login
+  uid: ffa85580-4482-45e8-95e3-2e4db16bbaf7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema entra na página inicial do sistema e exibe "p1"
+  uid: c4422cdd-46db-4aeb-9fae-b975179fecb3
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o usuário já fez login
+  uid: 6f0e1d23-70ef-42b9-bea3-9b3d6c7b3f43
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: acessar a página inicial
+  uid: 1c1987ae-8ba1-4c2a-b051-a162ebefa02f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o usuário faz o login com "p1" e "p2"
+  uid: 03fbfc64-ebdf-44d5-815a-b85fe4981f26
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: devo ser autenticado com sucesso
+  uid: 1d4a49f4-ed45-4960-a598-1c49f7cd5d25
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema irá entrar automaticamente para tela inicial, que exibe "p1"
+  uid: 7a36f0cc-cbb8-4530-bd76-c0dba63a25ed
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema não autentica o usuário
+  uid: 490d40a2-0c2a-4ffb-a838-c2ab6319ebf1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema exibe a mensagem "p1"
+  uid: 6aa1030c-bc1e-4ab3-bcd9-5b82cf47d6d4
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
